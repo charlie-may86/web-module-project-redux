@@ -108,7 +108,7 @@ const AddMovieForm = (props) => {
 
 const mapStateToProps = (state) => {
   return {
-    movies: state.movies,
+    movies: state.movie.movies,
   };
 };
 
